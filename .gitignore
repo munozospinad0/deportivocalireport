@@ -1,0 +1,8 @@
+audio/
+_*.mjs
+_*.js
+deporte-bg.mp3
+GUION.md
+node_modules/
+*.log
+Rerpots inicles/
