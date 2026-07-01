@@ -35,6 +35,28 @@ html,body{margin:0;height:100%;background:#0a1320}
 @keyframes ctaPulse{0%,100%{transform:translateX(-50%) rotate(-3deg) scale(1)}50%{transform:translateX(-50%) rotate(-3deg) scale(1.07)}}
 @keyframes ctaWobble{0%,100%{border-radius:46% 54% 58% 42% / 56% 48% 52% 44%}50%{border-radius:54% 46% 42% 58% / 48% 56% 44% 52%}}
 [data-cta-play]:hover{filter:brightness(1.05)}
+
+
+
+
+
+
+
+
+
+@media (max-width:680px){
+.slide{padding:1.4rem 14px !important;justify-content:center !important}
+.slide div{display:block !important}
+.slide *{min-width:0 !important;max-width:100% !important;overflow-wrap:break-word}
+.slide>div:not(.glow){width:100% !important;margin:0 !important}
+.h2{font-size:clamp(1.45rem,6.2vw,2rem) !important;margin-bottom:.6rem !important}
+.title{font-size:clamp(1.8rem,7.6vw,2.7rem) !important}
+.logo{font-size:clamp(30px,9.5vw,44px) !important}
+.card{padding:.8rem .95rem !important;margin-bottom:.55rem}
+.bar{display:flex !important}
+.foot{font-size:.5rem !important}
+.sticker{font-size:.92rem !important;top:6% !important}
+}
 </style></head><body>
 <div class="deck" data-deck>
 <section class="slide cover" data-audio="audio/01.mp3" data-narr="Hola. Bienvenido al reporte de junio de la academia en Miami. Te lo voy a contar claro y directo, sin tecnicismos. Qué logramos este mes. Qué está funcionando. Y la jugada que te propongo para el próximo. Como si estuviéramos sentados frente a frente. Arranquemos." style="align-items:flex-start;justify-content:center">
@@ -44,7 +66,7 @@ html,body{margin:0;height:100%;background:#0a1320}
   <div style="position:relative;z-index:3;max-width:760px">
     <div class="logo" data-say="Hola." data-at="0.00" style="font-size:clamp(46px,7vw,86px)">DEPORTIVO <span class="c">CALI</span><span class="sub">ACADEMIA · MIAMI</span></div>
     <div class="eyebrow" data-say="Bienvenido al reporte de junio de la academia en Miami." data-at="0.36" style="margin-top:1.4rem"><span class="dash"></span>Reporte de campaña · Junio 2026</div>
-    <h1 class="title" data-say="Bienvenido al reporte de junio de la academia en Miami." data-at="0.36" style="font-size:clamp(2.6rem,7vw,5rem);color:#fff">CÓMO VAMOS<br><span style="color:#4ade80">ESTE MES</span></h1>
+    <h1 class="title" data-say="Bienvenido al reporte de junio de la academia en Miami." data-at="0.36" style="font-size:clamp(1.6rem,6.5vw,5rem);color:#fff">CÓMO VAMOS<br><span style="color:#4ade80">ESTE MES</span></h1>
     <p data-say="Qué logramos este mes." data-at="5.96" style="font-size:clamp(1rem,2.1vw,1.2rem);line-height:1.5;color:#b9c6d6;margin:1rem 0 1.1rem;max-width:46ch">Academia de fútbol infantil · Miami. Te cuento, claro y directo, qué logramos y la jugada para el próximo mes.</p>
     <div data-say="Qué logramos este mes." data-at="5.96" style="display:flex;flex-wrap:wrap;gap:.5rem">
       <span class="pill" style="background:rgba(34,197,94,.15);border:1px solid rgba(74,222,128,.4);color:#4ade80">$252 invertidos</span>
@@ -58,9 +80,9 @@ html,body{margin:0;height:100%;background:#0a1320}
   <div class="glow" style="width:30vw;height:30vw;top:20%;left:35%;background:#22c55e;opacity:.1"></div>
   <div style="position:relative;z-index:2;max-width:920px">
     <div class="eyebrow" data-say="Fue un buen mes." data-at="3.42" style="justify-content:center"><span class="dash"></span>Junio en una frase</div>
-    <h2 class="h2" data-say="Fue un buen mes." data-at="3.42" style="font-size:clamp(2.6rem,7vw,5rem);color:#fff">BUEN MES.</h2>
-    <h2 class="h2" data-say="Llegamos a muchísimos papás. Gastamos lo planeado." data-at="4.66" style="font-size:clamp(2.4rem,6vw,4.4rem)">VAMOS EN PRESUPUESTO.</h2>
-    <h2 class="h2" data-say="Y de paso aprendimos algo que nos va a servir mucho de aquí en adelante." data-at="8.67" style="font-size:clamp(2.2rem,5.5vw,4rem);color:#fbbf24">Y APRENDIMOS ALGO IMPORTANTE.</h2>
+    <h2 class="h2" data-say="Fue un buen mes." data-at="3.42" style="font-size:clamp(1.6rem,6.5vw,5rem);color:#fff">BUEN MES.</h2>
+    <h2 class="h2" data-say="Llegamos a muchísimos papás. Gastamos lo planeado." data-at="4.66" style="font-size:clamp(1.4rem,5.5vw,4.4rem)">VAMOS EN PRESUPUESTO.</h2>
+    <h2 class="h2" data-say="Y de paso aprendimos algo que nos va a servir mucho de aquí en adelante." data-at="8.67" style="font-size:clamp(1.25rem,4.8vw,4rem);color:#fbbf24">Y APRENDIMOS ALGO IMPORTANTE.</h2>
   </div>
   <div class="foot">DEPORTIVO CALI · ACADEMIA MIAMI</div>
 </section>
@@ -231,7 +253,7 @@ html,body{margin:0;height:100%;background:#0a1320}
   <span class="sticker" data-say="Gracias por la confianza. Y vamos por más niños en la cancha." data-at="18.68" style="top:13%;right:10%;--rot:8deg;background:#22c55e;color:#06281a;animation:ecfloat 5.4s ease-in-out infinite">Julio →</span>
   <div style="position:relative;z-index:3;max-width:920px">
     <div class="logo" data-say="el próximo paso es sencillo." data-at="0.63" style="font-size:clamp(30px,4vw,46px)">DEPORTIVO <span class="c">CALI</span></div>
-    <h1 class="title" data-say="el próximo paso es sencillo." data-at="0.63" style="font-size:clamp(2.4rem,6vw,4.4rem);margin-top:.5rem;color:#fff">EL PLAN PARA <span style="color:#4ade80">JULIO</span></h1>
+    <h1 class="title" data-say="el próximo paso es sencillo." data-at="0.63" style="font-size:clamp(1.4rem,5.5vw,4.4rem);margin-top:.5rem;color:#fff">EL PLAN PARA <span style="color:#4ade80">JULIO</span></h1>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.8rem;margin-top:1.2rem;text-align:left">
       <div class="card" data-say="Primero, escuchamos a Rafael: qué tan bien le fueron los contactos de junio." data-at="2.50" style="background:rgba(255,255,255,.05)"><span class="pill" style="background:#22c55e;color:#06281a">1</span><p style="margin:.5rem 0 0;font-size:.92rem">Escuchar a Rafael: cómo le fueron los contactos.</p></div>
       <div class="card" data-say="Segundo, con eso definimos el equilibrio entre WhatsApp y formularios." data-at="7.15" style="background:rgba(255,255,255,.05)"><span class="pill" style="background:#22c55e;color:#06281a">2</span><p style="margin:.5rem 0 0;font-size:.92rem">Definir el balance WhatsApp / Formularios.</p></div>
